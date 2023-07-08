@@ -68,9 +68,6 @@ def linhas():
             print("O jogador O ganhou!")
             return True
             # reta 2
-
-def colunas():
-    for item in tabela:
         if tabela[2][0] == tabela[2][1] == tabela[2][2] == "X":
             print("O jogador X ganhou!")
             return True
@@ -78,6 +75,9 @@ def colunas():
             print("O jogador O ganhou!")
             return True
             # reta 3
+
+def colunas():
+    for item in tabela:
         if tabela[0][0] == tabela[1][0] == tabela[2][0] == "X":
             print("O jogador X ganhou!")
             return True
